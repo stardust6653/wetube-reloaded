@@ -1,0 +1,50 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "The best way to watch video",
+  "main": "index.js",
+  "scripts": {
+    "dev:server": "nodemon",
+    "dev:assets": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stardust6653/wetube-reloaded.git"
+  },
+  "author": "Soye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stardust6653/wetube-reloaded/issues"
+  },
+  "homepage": "https://github.com/stardust6653/wetube-reloaded#readme",
+  "dependencies": {
+    "@ffmpeg/core": "^0.10.0",
+    "@ffmpeg/ffmpeg": "^0.10.1",
+    "babel-loader": "^8.2.5",
+    "bcrypt": "^5.0.1",
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.2.4",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "node-fetch": "^2.6.1",
+    "pug": "^3.0.2",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.50.1",
+    "sass-loader": "^12.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "css-loader": "^6.7.1",
+    "mini-css-extract-plugin": "^2.6.0",
+    "nodemon": "^2.0.15",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
